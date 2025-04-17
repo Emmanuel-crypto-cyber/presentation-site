@@ -6,8 +6,20 @@
 	padding: 0;
 	outline: none;
 	font-family: 'Tw Cen MT', sans-serif;
+	
 }
-
+body{
+	opacity: 0;
+    animation: fade 2s ease forwards;
+}
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .container {
 	position: relative;
 	height: 100vh;
